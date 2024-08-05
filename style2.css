@@ -1,0 +1,92 @@
+@import url('https://fonts.google.com/specimen/Young+Serif');
+@import url('https://fonts.google.com/specimen/Outfit');
+
+body{
+    margin: 0 auto;
+    font-family: "Young Serif",sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: hsl(30, 54%, 90%);
+}
+.containercep {
+    background-color: hsl(0, 0%, 100%);
+    margin:60px auto;
+    width: 550px;
+    padding: 15px;
+    height: 200%;
+    border-radius: 10px;
+    
+}
+img {
+    height: 85%;
+    width:95%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+h2{
+    font-family: "Outfit";
+    color:hsl(14, 45%, 36%) ;
+    font-weight: 400;
+    font-weight: bold ;
+}
+h1{
+
+    color: hsl(24, 5%, 18%);
+    font-family: "Outfit";
+    font-weight:400, 600, 700 ;
+
+}
+p {
+   color:hsl(30, 10%, 34%) ;
+   font-family: "Young Serif",sans-serif;
+   font-weight: 400;
+}
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    font-family:"young Serif",sans-serif;
+    width: auto;
+    height: 150%;
+    padding: 2px;
+    border-radius: 10px;
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: "young Serif",sans-serif;
+    padding: 5px;
+    margin: 20px, 30px;
+    margin-left: 10px;
+}
+li {
+    color:hsl(14, 45%, 36%) ;
+   font-family:"Outfit",sans-serif ;
+    font-weight: bold ;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding : 8px;
+    text-align: left;
+}
+tr:last-child th, tr:last-child td {
+    border-bottom: none; /* Remove the border on the last row */
+     
+}
+tr:nth-child(1), td:nth-child(1) {
+    color:hsl(30, 10%, 34%) ;
+   font-family: "Young Serif",sans-serif;
+   font-weight: 400;
+}
+tr :nth-child(2),td:nth-child(2) {
+    color:hsl(14, 45%, 36%) ;
+   font-family : "Outfit" ,sans-serif ;
+    font-weight : bold ; 
+}
+hr{
+    background-color: hsl(30, 18%, 87%);
+    border:none;
+    height: 1px;
+}
